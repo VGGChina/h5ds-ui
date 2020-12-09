@@ -9,7 +9,7 @@ function getColorList() {
   if (colors) {
     colors = colors.split(';').slice(0, 5);
   } else {
-    colors = ['#5EA4FF', '#835EFF', '#FFEA5E', '#5EFF94', '#FF5E8A'];
+    colors = [];
   }
   return colors;
 }
@@ -63,7 +63,7 @@ export default function ColorGroup({ size = 'normal', value = 'rgba(0,0,0,1)', o
             onClick={() => clickColor(d)}
             key={i}
             className="ui-color-item"
-            style={{ backgroundColor: d, boxShadow: `0 5px 5px ${d}` }}
+            style={{ backgroundColor: d, border: `1px solid rgba(0, 0, 0, 0.1)` }}
           ></span>
         );
       })}

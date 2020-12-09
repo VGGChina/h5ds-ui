@@ -41,7 +41,7 @@ function SliderGroup({ width = 120, step = 0.1, min = 0, max = 1, value = 0, onC
           value={typeof val === 'number' ? val : 0}
         />
         <InputNumber
-          size="small"
+          size="middle"
           step={step}
           min={min}
           max={max}

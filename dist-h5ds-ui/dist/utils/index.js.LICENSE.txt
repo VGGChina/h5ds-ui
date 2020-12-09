@@ -1,0 +1,3 @@
+/*! simple-query-string v1.3.2 - MIT license */
+
+/*! 欢迎使用H5DS，官网：www.h5ds.com */

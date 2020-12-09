@@ -1,0 +1,31 @@
+/*!
+  Copyright (c) 2017 Jed Watson.
+  Licensed under the MIT License (MIT), see
+  http://jedwatson.github.io/classnames
+*/
+
+/*!
+ *  Spatial Plugin - Adds support for stereo and 3D audio where Web Audio is supported.
+ *  
+ *  howler.js v2.2.1
+ *  howlerjs.com
+ *
+ *  (c) 2013-2020, James Simpson of GoldFire Studios
+ *  goldfirestudios.com
+ *
+ *  MIT License
+ */
+
+/*!
+ *  howler.js v2.2.1
+ *  howlerjs.com
+ *
+ *  (c) 2013-2020, James Simpson of GoldFire Studios
+ *  goldfirestudios.com
+ *
+ *  MIT License
+ */
+
+/*! simple-query-string v1.3.2 - MIT license */
+
+/*! 欢迎使用H5DS，官网：www.h5ds.com */

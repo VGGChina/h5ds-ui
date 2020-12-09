@@ -49,7 +49,7 @@ export default function Colors({ size = 'normal', type = 'hex', data = [], onCha
             trigger="click"
             content={<ChromePicker onChange={c => onChangeColor(c, i)} color={d} />}
           >
-            <span className="ui-colors-item" style={{ backgroundColor: d, boxShadow: `0 5px 5px ${d}` }}>
+            <span className="ui-colors-item" style={{ backgroundColor: d, border: `1px solid rgba(0,0,0,0.1)` }}>
               {!noDelete && <a onClick={e => deleteColor(e, i)} className="h5font ico-shanchu" title="删除"></a>}
             </span>
           </Popover>
@@ -64,7 +64,7 @@ export default function Colors({ size = 'normal', type = 'hex', data = [], onCha
         >
           <span
             className="ui-colors-item"
-            style={{ backgroundColor: 'rgba(0,0,0,1)', boxShadow: `0 5px 5px rgba(0,0,0,1)` }}
+            style={{ backgroundColor: 'rgba(0,0,0,1)', boxShadow: `1px solid rgba(0,0,0,0.1)` }}
           >
             +
           </span>

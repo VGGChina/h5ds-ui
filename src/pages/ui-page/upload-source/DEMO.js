@@ -4,6 +4,7 @@ import { UploadSource } from '../../../../h5ds-ui';
 import { code } from './code';
 import { apis } from './apis';
 import { Button } from 'antd';
+import { UploadOutlined } from '@ant-design/icons';
 
 /**
   accept,
@@ -50,7 +51,7 @@ export default function Example() {
           onChange={onChange}
           error={errorFun}
         >
-          <Button icon={<i className="h5font ico-jia" />}>图片上传</Button>
+          <Button icon={<UploadOutlined />}>图片上传</Button>
         </UploadSource>
       </div>
     </UILayout>
